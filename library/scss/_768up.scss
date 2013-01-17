@@ -24,7 +24,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	max-width: 1140px;
+	width: 980px;
 }
 
 /*********************
@@ -40,12 +40,12 @@ NAVIGATION STYLES
 *********************/
 
 .nav {
-	background: #eee;
 	border: 0;
 
 	li {
 		float: left;
 		position: relative;
+		width: 20%;
 
 		a {
 			border-bottom: 0;
@@ -55,7 +55,6 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				background-color: #dedede;
 
 			}
 		}

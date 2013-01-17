@@ -60,6 +60,10 @@ you can add resource intensive styles.
 
 } // end of media query
 
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.wrap: 748px;
+}
+
 /*
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
